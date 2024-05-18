@@ -1,0 +1,118 @@
+/* portfolio.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color */
+body {
+    background-color: rgb(172, 225, 175); /* RGB 172, 225, 175 */
+    color: #333; /* Dark gray text */
+}
+
+/* Style header */
+header {
+    background-color: rgb(176, 235, 180); /* RGB 176, 235, 180 */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style navigation links */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ecf0f1; /* Light gray on hover */
+}
+
+/* Style section headings */
+h2 {
+    color: #333; /* Dark gray */
+    margin-bottom: 20px;
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Style footer */
+footer {
+    background-color: rgb(191, 246, 195); /* RGB 191, 246, 195 */
+    padding: 20px 0;
+    text-align: center;
+    color: #333; /* Dark gray text */
+}
+
+/* Additional styling */
+.project, .web-design-project {
+    background-color: rgb(224, 251, 226); /* RGB 224, 251, 226 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.project h3, .web-design-project h3 {
+    color: #333; /* Dark gray */
+}
+
+.project p, .web-design-project p {
+    color: #555; /* Medium gray */
+}
+
+/* Style the rectangles */
+.rectangle {
+    background-color: #E0FBE2; /* Light green color */
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: block; /* Change to block for full width */
+    margin-bottom: 10px;
+}
+
+/* Adjust the background color to a lighter shade */
+.section {
+    background-color: #FFF9E6; /* Lighter shade of cream */
+    padding: 50px 0; /* Add more padding */
+}
+
+/* Style subheadings */
+.rectangle h3 {
+    color: #333; /* Dark gray */
+    margin-bottom: 10px;
+}
+
+/* Ensure consistent width for all rectangles */
+.rectangle {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style the new rectangle under "About Me" */
+.about .rectangle {
+    background-color: #E0FBE2; /* Light green color */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
